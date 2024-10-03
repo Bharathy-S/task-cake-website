@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./task-cakewebsite.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- boxicon -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <div id="container">
+        <!-- navigation bar -->
+        <p id="firstoreder">Flat 15% OFF on the first order. Use Code SIGNUP15</p>
+        <div>
+            <nav class="navbar">
+                <img id="logo" src="https://theobroma.in/cdn/shop/files/theologo.jpg?v=1614330377" alt="logo">
+
+                <!-- checkbox -->
+                <input type="checkbox" id="check">
+                <label for="check" class="icons">
+                    <!-- menu icon -->
+                    <i class='bx bx-menu' id="menuicon"></i>
+                    <!-- close icon -->
+                    <i class='bx bx-x' id="closeicon"></i>
+                </label>
+
+                <ul class="navul">
+                    <li><a href="#aboutus">About Us</a></li>
+                    <li><a href="#producs">Products</a></li>
+                    <li><a href="#bestSeller">Best Sellers</a></li>
+                    <!-- <li><a href="">Find Us</a></li> -->
+                    <li><a href="#footer">Contact Us</a></li>
+                </ul>
+                <span>
+                    <input class="search" type="text" placeholder="search">
+                    <button class="orderbtn">ORDER</button>
+                </span>
+            </nav>
+        </div>
+        <!-- header image -->
+        <header>
+            <img class="headerimg"
+                src="https://static.vecteezy.com/system/resources/previews/042/657/699/non_2x/cake-shop-set-dessert-and-pastry-dishes-different-cakes-illustration-vector.jpg"
+                alt="no image">
+        </header>
+        <!-- About Us -->
+        <div id="aboutus">
+            <h1 id="ab">Food of The Gods, Freshly Baked!</h1>
+            <p>Since 2004, we've been serving our guests the best quality treats,<br> <span
+                    class="lineheight">traditionally made and presented
+                    with
+                    care.</span> </p>
+            <div class="aboutcontent">
+                <div>
+                    <h1>AUTHENTIC RECIPES</h1><br>
+                    <p>Our products are based on
+                        traditional home-style recipes
+                        using fresh ingredients.</p><br>
+                    <h1>BAKED WITH LOVE</h1>
+                    <p>Our passion for baking is poured into
+                        every recipe, serving smiles on a
+                        plate everyday.</p>
+                </div>
+                <div>
+                    <img id="aboutimg"
+                        src="https://theobroma.in/cdn/shop/files/theo-home_03c4e3a4-9dc9-4de7-9464-16e655a238ed_2.jpg?v=1630652883"
+                        alt="">
+                </div>
+                <div>
+                    <h1>COMMITTED TO QUALITY</h1><br>
+                    <p>From our ingredients to our
+                        kitchen operations & guest services,
+                        we always prioritize quality.</p><br>
+                    <h1>HONESTLY PRICED</h1><br>
+                    <p>We constantly strive to offer the best
+                        products at the right prices.</p>
+                </div>
+            </div>
+        </div>
+        <!-- products -->
+        <section class="productsection" id="producs">
+            <h1 class="ourpro">Our Products</h1>
+            <div class="card">
+                <div class="deserts">
+                    <img class="productimg" src="https://theobroma.in/cdn/shop/files/redvelvet-theo.jpg?v=1701321860"
+                        alt="">
+                    <h1>CAKES</h1>
+                </div>
+                <div class="deserts">
+                    <img class="productimg" src="https://theobroma.in/cdn/shop/files/Delicacies-02.jpg?v=1681320315"
+                        alt="">
+                    <h1>BROWNIES</h1>
+                </div>
+                <div class="deserts">
+                    <img class="productimg" src="https://theobroma.in/cdn/shop/files/Delicacies-04.jpg?v=1681320427"
+                        alt="">
+                    <h1>DESSERTS & CUPCAKES</h1>
+                </div>
+                <div class="deserts">
+                    <img class="productimg" src="https://theobroma.in/cdn/shop/files/Delicacies-06.jpg?v=1681320464"
+                        alt="">
+                    <h1>PASTRIES</h1>
+                </div>
+            </div>
+        </section>
+        <section id="bestSeller">
+            <div>
+                <h1 class="ourpro">Our Best-Sellers</h1>
+                <div class="bestpro">
+                    <div class="bestproduct">
+                        <img class="productimg"
+                            src="https://theobroma.in/cdn/shop/files/FreshCreamPineappleCakehalfkg02_cca038c8-bb78-4bc3-b62c-26cde91670ad_400x400.jpg?v=1711124785"
+                            alt="">
+                        <h1>Fresh Cream Pineapple Cake</h1>
+                    </div>
+                    <div class="bestproduct">
+                        <img class="productimg"
+                            src="https://theobroma.in/cdn/shop/files/OverloadBrownie02_400x400.jpg?v=1711183338" alt="">
+                        <h1>Overload Brownie</h1>
+                    </div>
+                    <div class="bestproduct">
+                        <img class="productimg"
+                            src="https://theobroma.in/cdn/shop/files/HIGHRESDenseLoafCloseUp-Square_400x400.jpg?v=1711002439"
+                            alt="">
+                        <h1>Dense Loaf</h1>
+                    </div>
+                    <div class="bestproduct">
+                        <img class="productimg"
+                            src="https://theobroma.in/cdn/shop/files/BakedVadaPav-Square_400x400.jpg?v=1711611145"
+                            alt="">
+                        <h1>Baked Wada Pao</h1>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <!-- footer -->
+    <footer id="footer">
+        <div class="footercontent">
+            <div class="footerdiv">
+                <img id="img"
+                    src="https://theobroma.in/cdn/shop/files/theo-logo-footer_8aecafbf-62c0-4aaf-84c1-194a7f79958a.png?v=1644247501"
+                    alt="no image">
+            </div>
+            <div class="footerdiv">
+                <ul>
+                    <li> <a href="#aboutus">OUR STORY</a></li>
+                    <li><a href="#producs">OUR PRODUCTS</a></li>
+                    <li> <a href="">SPECIALITY CAKES</a></li>
+                    <li><a href=""> BLOGS</a></li>
+                    <li> <a href=""> HTML SITEMAP</a></li>
+                </ul>
+            </div>
+            <div class="footerdiv">
+                <ul>
+                    <li><a href="">PRIVACY POLICY</a></li>
+                    <li><a href="">COOKIE POLICY</a></li>
+                    <li><a href="">REFUND POLICY</a></li>
+                    <li><a href=""> FAQs</a></li>
+                    <li><a href="">NUTRITIONAL INFORMATION</a></li>
+                </ul>
+            </div>
+            <div class="footerdiv">
+
+                <div>
+                    <div>
+                        <i class="fa-solid fa-envelope"></i>
+                        <span>info@yoursite.com</span>
+
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-phone"></i>
+                        <span>1-444-123-4559</span>
+                    </div>
+                </div>
+                <div class="iconcollection">
+                    <div class="icon">
+                        <a href="https://www.youtube.com/channel/UCoT6FW4ITrBtZU08cy-VoyA/featured" target="_blank"><i
+                                class="fa-brands fa-youtube brands"></i></a>
+                    </div>
+                    <div class="icon">
+                        <a href="https://www.instagram.com/Theobromapatisserie/" target="_blank"><i
+                                class="fa-brands fa-instagram brands"></i></a>
+                    </div>
+                    <div class="icon">
+                        <a href="https://www.facebook.com/theobromaindia" target="_blank"><i
+                                class="fa-brands fa-facebook brands"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footerdiv">
+                <p>Sign up for updates</p>
+                <input type="text" placeholder="Enter your email...">
+                <span>
+                    <button>SIGN UP</button>
+                </span>
+            </div>
+        </div>
+        <div class="icon upArrow">
+            <a href="#container"><i class="fa-solid fa-angle-up brands"></i></a>
+
+        </div>
+    </footer>
+</body>
+
+</html>
